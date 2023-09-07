@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Currency Converter</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
@@ -17,26 +18,31 @@
             <li><a href="/contact">Contact Us</a></li>
         </ul>
     </nav>
+    <h1>
+        Choose a Currency to Convert
+    </h1>
     <div class="container">
-        <h1>
-            Choose a Currency to Convert
-        </h1>
         <div class="to">
             <input type="number" name="quantity" min="1" max="10">
             <select name="country">
                 <option value="usd">US Dollar</option>
                 <option value="pkr">PKR</option>
+                <option value="pkr">INR</option>
+                <option value="pkr">EUR</option>
             </select>
         </div>
+        <img src="convert.png" class="btn">
         <div class="from">
             <input type="number" name="quantity" min="1" max="10">
             <select name="country">
                 <option value="usd">US Dollar</option>
                 <option value="pkr">PKR</option>
+                <option value="pkr">INR</option>
+                <option value="pkr">EUR</option>
             </select>
-
         </div>
     </div>
+
     <footer>
         Copyright &copy; All Rights Reserved
     </footer>
